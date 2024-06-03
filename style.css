@@ -1,0 +1,110 @@
+.bg-dark {
+    background-color:rgb(224, 205, 182) !important;
+}
+
+.border-bottom {
+    border-bottom: none !important;
+}
+
+.justify-content-between {
+    justify-content: center !important;
+}
+
+.navbar-brand {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+    --bs-dropdown-link-hover-bg: rgb(224, 205, 182);
+}
+
+.dropdown-item {
+    color: black;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+
+/*main*/
+.my-5 {
+    background-image: url("assets/DSC03420.JPEG");
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position: 100%;
+    background-size: cover;
+    margin-top: 0rem !important;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    font-weight: bold;
+}
+
+.image {
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.row {
+    padding-top: 30px;
+}
+  
+.card-text {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+  
+.card {
+    background-color: white;
+    border: none;
+    align-items: center;
+    width: 320px;
+}
+
+.bg-body-tertiary {
+    background-color:white!important ;
+}
+
+/*.my-4 {
+    background-image: url("assets/hello\ Hi\ heyy.jpg");
+    background-repeat: no-repeat;
+    height: 900px;
+    background-position: 100%;
+    background-size: auto;
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+}*/
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*footer*/
+footer {
+    padding: 10px;
+    text-align: center;
+    background-color:rgb(224, 205, 182) !important;
+}
+
+.my-3 {
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+}
